@@ -118,13 +118,12 @@ function my_custom_woocommerce_get_country_locale($locales) {
         $locales[$country_code]['last_name']['label'] = __( 'اسم العائلة  ', 'woocommerce' );
         $locales[$country_code]['company']['label'] = __( 'شركة  ' ,  'woocommerce' );
         $locales[$country_code]['address_1']['label'] = __( 'عنوان  ', 'woocommerce' );
-
+        $locales[$country_code]['address_1']['placeholder'] = __( 'رقم المنزل واسم الشارع ', 'woocommerce' );
+        $locales[$country_code]['address_2']['placeholder'] = __( 'شقة، جناح، وحدة، الخ (اختياري )', 'woocommerce' );
         $locales[$country_code]['postcode']['label'] = __( ' الرمز البريدي  ', 'woocommerce' );
         $locales[$country_code]['state']['label'] = __( 'ولاية  ', 'woocommerce' );
         $locales[$country_code]['city']['label'] = __( 'مدينة   ', 'woocommerce' );
         $locales[$country_code]['country']['label'] = __( ' الدولة  ', 'woocommerce' );
-        // $locales[$country_code]['phone']['label'] = __( 'الهاتف (اختياري  )   ', 'woocommerce' );
-
     }
     return $locales;
 }
@@ -388,3 +387,104 @@ function custom_password_hint( $hint ) {
 
     return $hint;
 }
+
+
+// New Working 03-01-2025
+add_filter('woocommerce_form_field', 'replace_optional_text_with_arabic', 10, 4);
+function replace_optional_text_with_arabic($field, $key, $args, $value) {
+    if (isset($args['required']) && !$args['required']) {
+        $field = str_replace('(optional)', '(اختياري )', $field);
+    }
+    return $field;
+}
+add_filter('woocommerce_checkout_fields', 'custom_override_checkout_fields');
+function custom_override_checkout_fields($fields) {
+    if (isset($fields['billing']['billing_phone'])) {
+        $fields['billing']['billing_phone']['label'] = 'فون  ';
+    }
+    if (isset($fields['billing']['billing_email'])) {
+        $fields['billing']['billing_email']['label'] = ' عنوان البريد الإلكتروني  ';
+    }
+    if (isset($fields['order']['order_comments'])) {
+        $fields['order']['order_comments']['label'] = 'معلومات إضافية ';
+        $fields['order']['order_comments']['placeholder'] = 'ملاحظات حول طلبك، مثل تعليمات خاصة للتوصيل.';
+    }
+    return $fields;
+}
+add_filter( 'gettext', 'change_additional_information_text', 20, 3 );
+function change_additional_information_text( $translated_text, $text, $domain ) {
+    if ( 'Additional information' === $text && 'woocommerce' === $domain ) {
+        $translated_text = 'معلومات إضافية ';
+    }
+    return $translated_text;
+}
+add_filter('woocommerce_gateway_title', 'change_cod_gateway_title', 10, 2);
+function change_cod_gateway_title($title, $gateway_id) {
+    if ($gateway_id === 'cod') {
+        $title = 'الدفع عند الاستلام';
+    }
+    return $title;
+}
+add_filter('woocommerce_gateway_description', 'change_cod_description', 10, 2);
+function change_cod_description($description, $gateway_id) {
+    if ($gateway_id === 'cod') {
+        $description = 'الدفع نقدًا عند الاستلام';
+    }
+    return $description;
+}
+add_filter('woocommerce_order_button_text', 'change_place_order_button_text');
+function change_place_order_button_text($button_text) {
+    return 'وضع الطلب  ';
+}
+
+add_filter('woocommerce_get_privacy_policy_text', 'custom_wc_privacy_policy_text_with_link', 10, 2);
+function custom_wc_privacy_policy_text_with_link($text, $type) {
+    $privacy_policy_page_id = wc_privacy_policy_page_id();
+    $privacy_policy_url = get_permalink($privacy_policy_page_id);
+    if (!empty($privacy_policy_url)) {
+        if ($type === 'checkout') {
+            $text = 'سيتم استخدام بياناتك الشخصية لمعالجة طلبك ودعم تجربتك عبر هذا الموقع ولأغراض أخرى موصوفة في  <a href="' . esc_url($privacy_policy_url) . '" target="_blank">سياسة الخصوصية  </a>.';
+        } elseif ($type === 'registration') {
+            $text = 'سيتم استخدام بياناتك الشخصية لدعم تجربتك عبر هذا الموقع، وإدارة الوصول إلى حسابك، ولأغراض أخرى موصوفة في  <a href="' . esc_url($privacy_policy_url) . '" target="_blank">سياسة الخصوصية  </a>.';
+        }
+    }
+    return $text;
+}
+
+// function custom_woocommerce_checkout_field_errors($fields) {
+//     $fields['billing']['billing_first_name']['error'] = __( 'الاسم الأول هو حقل مطلوب.', 'woocommerce' );
+//     $fields['billing']['billing_last_name']['error'] = __( 'اسم العائلة هو حقل مطلوب.', 'woocommerce' );
+//     $fields['billing']['billing_address_1']['error'] = __( 'عنوان هو حقل مطلوب.', 'woocommerce' );
+//     $fields['billing']['billing_postcode']['error'] = __( 'الرمز البريدي هو حقل مطلوب.', 'woocommerce' );
+//     $fields['billing']['billing_city']['error'] = __( 'مدينة هو حقل مطلوب.', 'woocommerce' );
+//     $fields['billing']['billing_phone']['error'] = __( 'الهاتف هو حقل مطلوب.', 'woocommerce' );
+//     $fields['billing']['billing_email']['error'] = __( 'عنوان البريد الإلكتروني هو حقل مطلوب.', 'woocommerce' );
+//     add_filter('woocommerce_email_validation_error', 'custom_email_validation_error', 10, 2);
+//     return $fields;
+// }
+// add_filter('woocommerce_checkout_fields', 'custom_woocommerce_checkout_field_errors');
+// function custom_email_validation_error($valid, $email) {
+//     if (!is_email($email)) {
+//         return __( 'عنوان البريد الإلكتروني غير صالح.', 'woocommerce' );
+//     }
+//     return $valid;
+// }
+// function custom_woocommerce_checkout_errors( $fields ) {
+//     $fields['billing']['billing_first_name']['required_error'] = __('الاسم الأول هو حقل مطلوب.', 'woocommerce');
+//     $fields['billing']['billing_last_name']['required_error'] = __('اسم العائلة هو حقل مطلوب.', 'woocommerce');
+//     $fields['billing']['billing_address_1']['required_error'] = __('عنوان هو حقل مطلوب.', 'woocommerce');
+//     $fields['billing']['billing_postcode']['required_error'] = __('الرمز البريدي هو حقل مطلوب.', 'woocommerce');
+//     $fields['billing']['billing_city']['required_error'] = __('مدينة هو حقل مطلوب.', 'woocommerce');
+//     $fields['billing']['billing_phone']['required_error'] = __('الهاتف هو حقل مطلوب.', 'woocommerce');
+//     $fields['billing']['billing_email']['required_error'] = __('عنوان البريد الإلكتروني هو حقل مطلوب.', 'woocommerce');
+//     add_filter('woocommerce_email_validation_error', 'custom_email_validation_error', 10, 2);
+//     return $fields;
+// }
+// add_filter('woocommerce_checkout_fields', 'custom_woocommerce_checkout_errors');
+// function custom_email_validation_error($valid, $email) {
+//     if (!is_email($email)) {
+//         return __('عنوان البريد الإلكتروني غير صالح.', 'woocommerce');
+//     }
+//     return $valid;
+// }
+
