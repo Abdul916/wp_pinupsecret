@@ -389,6 +389,15 @@ function custom_password_hint( $hint ) {
 }
 
 
+
+
+
+
+
+
+
+
+
 // New Working 03-01-2025
 add_filter('woocommerce_form_field', 'replace_optional_text_with_arabic', 10, 4);
 function replace_optional_text_with_arabic($field, $key, $args, $value) {
@@ -416,6 +425,12 @@ function change_additional_information_text( $translated_text, $text, $domain ) 
     if ( 'Additional information' === $text && 'woocommerce' === $domain ) {
         $translated_text = 'معلومات إضافية ';
     }
+    if ( 'Invalid billing email address' === $text && 'woocommerce' === $domain ) {
+        $translated_text = __( 'عنوان بريد إلكتروني غير صالح للفواتير ');
+    }
+    // if ( 'Coupon "%s" does not exist!' === $text && 'woocommerce' === $domain ) {
+    //     $translated_text = __( 'الكوبون  "%s" غير موجود!');
+    // }
     return $translated_text;
 }
 add_filter('woocommerce_gateway_title', 'change_cod_gateway_title', 10, 2);
@@ -451,40 +466,32 @@ function custom_wc_privacy_policy_text_with_link($text, $type) {
     return $text;
 }
 
-// function custom_woocommerce_checkout_field_errors($fields) {
-//     $fields['billing']['billing_first_name']['error'] = __( 'الاسم الأول هو حقل مطلوب.', 'woocommerce' );
-//     $fields['billing']['billing_last_name']['error'] = __( 'اسم العائلة هو حقل مطلوب.', 'woocommerce' );
-//     $fields['billing']['billing_address_1']['error'] = __( 'عنوان هو حقل مطلوب.', 'woocommerce' );
-//     $fields['billing']['billing_postcode']['error'] = __( 'الرمز البريدي هو حقل مطلوب.', 'woocommerce' );
-//     $fields['billing']['billing_city']['error'] = __( 'مدينة هو حقل مطلوب.', 'woocommerce' );
-//     $fields['billing']['billing_phone']['error'] = __( 'الهاتف هو حقل مطلوب.', 'woocommerce' );
-//     $fields['billing']['billing_email']['error'] = __( 'عنوان البريد الإلكتروني هو حقل مطلوب.', 'woocommerce' );
-//     add_filter('woocommerce_email_validation_error', 'custom_email_validation_error', 10, 2);
-//     return $fields;
-// }
-// add_filter('woocommerce_checkout_fields', 'custom_woocommerce_checkout_field_errors');
-// function custom_email_validation_error($valid, $email) {
-//     if (!is_email($email)) {
-//         return __( 'عنوان البريد الإلكتروني غير صالح.', 'woocommerce' );
-//     }
-//     return $valid;
-// }
-// function custom_woocommerce_checkout_errors( $fields ) {
-//     $fields['billing']['billing_first_name']['required_error'] = __('الاسم الأول هو حقل مطلوب.', 'woocommerce');
-//     $fields['billing']['billing_last_name']['required_error'] = __('اسم العائلة هو حقل مطلوب.', 'woocommerce');
-//     $fields['billing']['billing_address_1']['required_error'] = __('عنوان هو حقل مطلوب.', 'woocommerce');
-//     $fields['billing']['billing_postcode']['required_error'] = __('الرمز البريدي هو حقل مطلوب.', 'woocommerce');
-//     $fields['billing']['billing_city']['required_error'] = __('مدينة هو حقل مطلوب.', 'woocommerce');
-//     $fields['billing']['billing_phone']['required_error'] = __('الهاتف هو حقل مطلوب.', 'woocommerce');
-//     $fields['billing']['billing_email']['required_error'] = __('عنوان البريد الإلكتروني هو حقل مطلوب.', 'woocommerce');
-//     add_filter('woocommerce_email_validation_error', 'custom_email_validation_error', 10, 2);
-//     return $fields;
-// }
-// add_filter('woocommerce_checkout_fields', 'custom_woocommerce_checkout_errors');
-// function custom_email_validation_error($valid, $email) {
-//     if (!is_email($email)) {
-//         return __('عنوان البريد الإلكتروني غير صالح.', 'woocommerce');
-//     }
-//     return $valid;
-// }
-
+function custom_checkout_required_field_error_notice( $notice, $field_label, $field_key ) {
+    $custom_messages = array(
+        'billing_first_name' => __( 'الاسم الأول للفواتير هو حقل مطلوب. ', 'hara' ),
+        'billing_last_name'  => __( 'الاسم الأخير للفواتير هو حقل مطلوب. ', 'hara' ),
+        'billing_address_1'  => __( 'عنوان الفاتورة هو حقل مطلوب. ', 'hara' ),
+        'billing_postcode'   => __( 'إرسال الفواتير الرمز البريدي هو حقل مطلوب. ', 'hara' ),
+        'billing_city'       => __( 'حقل مدينة الفواتير مطلوب. ', 'hara' ),
+        'billing_phone'      => __( 'رقم الهاتف للفواتير هو حقل مطلوب. ', 'hara' ),
+        'billing_email'      => __( 'عنوان البريد الإلكتروني الخاص بالفوترة هو حقل مطلوب. ', 'hara' ),
+    );
+    if ( isset( $custom_messages[ $field_key ] ) ) {
+        return $custom_messages[ $field_key ];
+    }
+    return $notice;
+}
+add_filter( 'woocommerce_checkout_required_field_notice', 'custom_checkout_required_field_error_notice', 10, 3 );
+function get_arabic_order_date( $order_date ) {
+    if ( $order_date ) {
+        $date_object = new DateTime( $order_date->date( 'Y-m-d H:i:s' ) );
+        $locale = 'ar_EG';
+        $formatter = new IntlDateFormatter(
+            $locale,
+            IntlDateFormatter::LONG,
+            IntlDateFormatter::NONE
+        );
+        return $formatter->format( $date_object );
+    }
+    return '';
+}

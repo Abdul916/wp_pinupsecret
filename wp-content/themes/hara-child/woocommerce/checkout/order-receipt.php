@@ -27,7 +27,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 	</li>
 	<li class="date">
 		<?php esc_html_e( 'تاريخ:', 'woocommerce' ); ?>
-		<strong><?php echo esc_html( wc_format_datetime( $order->get_date_created() ) ); ?></strong>
+		<!-- <strong><?php // echo esc_html( wc_format_datetime( $order->get_date_created() ) ); ?></strong> -->
+		<strong><?php echo esc_html( get_arabic_order_date( $order->get_date_created() ) ); ?></strong>
 	</li>
 	<li class="total">
 		<?php esc_html_e( 'المجموع:', 'woocommerce' ); ?>
