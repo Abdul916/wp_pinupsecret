@@ -444,19 +444,21 @@ function change_place_order_button_text($button_text) {
     return 'وضع الطلب  ';
 }
 
-add_filter('woocommerce_get_privacy_policy_text', 'custom_wc_privacy_policy_text_with_link', 10, 2);
-function custom_wc_privacy_policy_text_with_link($text, $type) {
-    $privacy_policy_page_id = wc_privacy_policy_page_id();
-    $privacy_policy_url = get_permalink($privacy_policy_page_id);
-    if (!empty($privacy_policy_url)) {
-        if ($type === 'checkout') {
-            $text = 'سيتم استخدام بياناتك الشخصية لمعالجة طلبك ودعم تجربتك عبر هذا الموقع ولأغراض أخرى موصوفة في  <a href="' . esc_url($privacy_policy_url) . '" target="_blank">سياسة الخصوصية  </a>.';
-        } elseif ($type === 'registration') {
-            $text = 'سيتم استخدام بياناتك الشخصية لدعم تجربتك عبر هذا الموقع، وإدارة الوصول إلى حسابك، ولأغراض أخرى موصوفة في  <a href="' . esc_url($privacy_policy_url) . '" target="_blank">سياسة الخصوصية  </a>.';
-        }
-    }
-    return $text;
-}
+
+// add_filter('woocommerce_get_privacy_policy_text', 'custom_wc_privacy_policy_text_with_link', 10, 2);
+// function custom_wc_privacy_policy_text_with_link($text, $type) {
+//     $privacy_policy_page_id = wc_privacy_policy_page_id();
+//     $privacy_policy_url = get_permalink($privacy_policy_page_id);
+//     if (!empty($privacy_policy_url)) {
+//         if ($type === 'checkout') {
+//             $text = 'سيتم استخدام بياناتك الشخصية لمعالجة طلبك ودعم تجربتك عبر هذا الموقع ولأغراض أخرى موصوفة في  <a href="' . esc_url($privacy_policy_url) . '" target="_blank">سياسة الخصوصية  </a>.';
+//         } elseif ($type === 'registration') {
+//             $text = 'سيتم استخدام بياناتك الشخصية لدعم تجربتك عبر هذا الموقع، وإدارة الوصول إلى حسابك، ولأغراض أخرى موصوفة في  <a href="' . esc_url($privacy_policy_url) . '" target="_blank">سياسة الخصوصية  </a>.';
+//         }
+//     }
+//     return $text;
+// }
+
 
 function custom_checkout_required_field_error_notice( $notice, $field_label, $field_key ) {
     $custom_messages = array(
@@ -486,4 +488,35 @@ function get_arabic_order_date( $order_date ) {
         return $formatter->format( $date_object );
     }
     return '';
+}
+
+
+
+add_filter('woocommerce_get_privacy_policy_text', 'custom_wc_privacy_policy_text_with_checkbox', 10, 2);
+function custom_wc_privacy_policy_text_with_checkbox($text, $type) {
+    $privacy_policy_page_id = wc_privacy_policy_page_id();
+    $privacy_policy_url = get_permalink($privacy_policy_page_id);
+    if (!empty($privacy_policy_url)) {
+        if ($type === 'checkout') {
+            $text = '';
+        } elseif ($type === 'registration') {
+            $text = '';
+        }
+    }
+    return $text;
+}
+
+
+add_action('woocommerce_checkout_before_terms_and_conditions', 'add_custom_checkbox_to_checkout');
+function add_custom_checkbox_to_checkout() {
+    echo '
+    <div class="woocommerce-terms-and-conditions-wrapper">
+    <div class="woocommerce-privacy-policy-text">
+    <p>
+    <input type="checkbox" id="terms_conditions_checkbox" required style="display: inline; margin-right: 5px;">
+    من خلال الاستمرار في عملية الشراء فإنك توافق على لدينا  <a href="https://pinup-secret.pro/الأحكام-والشروط/" target="_blank">الأحكام والشروط</a>و ياسة الخصوصية .
+    </p>
+    </div>
+    </div>
+    ';
 }
