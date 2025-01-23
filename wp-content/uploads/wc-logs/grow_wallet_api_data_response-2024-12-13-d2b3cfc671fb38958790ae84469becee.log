@@ -1,0 +1,370 @@
+2024-12-13T02:52:34+00:00 NOTICE API Response: Array
+(
+    [status] => 1
+    [message] => success
+    [code] => dcf3773f6d61379b
+    [pagecodes] => Array
+        (
+            [meshulam_regular] => Array
+                (
+                    [live_pagecode] => 81e04dc34850
+                    [test_pagecode] => 694776aec5e2
+                )
+
+            [meshulam_recurring] => Array
+                (
+                    [live_pagecode] => 085a5c336fa7
+                    [test_pagecode] => 7307c1551791
+                )
+
+            [bit_payment] => Array
+                (
+                    [live_pagecode] => e10278843d0e
+                    [test_pagecode] => 2eb3ebca1eda
+                )
+
+            [apple_payment] => Array
+                (
+                    [live_pagecode] => fc0ec4b9957e
+                    [test_pagecode] => e646fdac03a2
+                )
+
+            [cal_payment] => Array
+                (
+                    [live_pagecode] => b8516a3d0e3f
+                    [test_pagecode] => b8516a3d0e3f
+                )
+
+            [googlepay_payment] => Array
+                (
+                    [live_pagecode] => d189717e5d4c
+                    [test_pagecode] => d189717e5d4c
+                )
+
+            [grow_wallet_payment] => Array
+                (
+                    [live_pagecode] => ecf9bc87dde2
+                    [test_pagecode] => d715082edb04
+                )
+
+            [grow_wallet_recurring] => Array
+                (
+                    [live_pagecode] => 1358f9ab9036
+                    [test_pagecode] => 06e7c400e529
+                )
+
+        )
+
+    [regular_status] => 1
+    [recurring_status] => 0
+    [bit_status] => 1
+    [apple_status] => 1
+    [cal_status] => 0
+    [googlepay_status] => 1
+    [refund_status] => 0
+    [j5_status] => 0
+    [j4_status] => 0
+    [sdk_status] => 1
+    [manage_recurring] => 0
+    [sdk_credit_card] => 1
+    [sdk_bit] => 1
+    [sdk_apple] => 1
+    [sdk_google] => 1
+)
+ CONTEXT: {"_legacy":true}
+2024-12-13T06:54:22+00:00 NOTICE API Response: Array
+(
+    [status] => 1
+    [message] => success
+    [code] => dcf3773f6d61379b
+    [pagecodes] => Array
+        (
+            [meshulam_regular] => Array
+                (
+                    [live_pagecode] => 81e04dc34850
+                    [test_pagecode] => 694776aec5e2
+                )
+
+            [meshulam_recurring] => Array
+                (
+                    [live_pagecode] => 085a5c336fa7
+                    [test_pagecode] => 7307c1551791
+                )
+
+            [bit_payment] => Array
+                (
+                    [live_pagecode] => e10278843d0e
+                    [test_pagecode] => 2eb3ebca1eda
+                )
+
+            [apple_payment] => Array
+                (
+                    [live_pagecode] => fc0ec4b9957e
+                    [test_pagecode] => e646fdac03a2
+                )
+
+            [cal_payment] => Array
+                (
+                    [live_pagecode] => b8516a3d0e3f
+                    [test_pagecode] => b8516a3d0e3f
+                )
+
+            [googlepay_payment] => Array
+                (
+                    [live_pagecode] => d189717e5d4c
+                    [test_pagecode] => d189717e5d4c
+                )
+
+            [grow_wallet_payment] => Array
+                (
+                    [live_pagecode] => ecf9bc87dde2
+                    [test_pagecode] => d715082edb04
+                )
+
+            [grow_wallet_recurring] => Array
+                (
+                    [live_pagecode] => 1358f9ab9036
+                    [test_pagecode] => 06e7c400e529
+                )
+
+        )
+
+    [regular_status] => 1
+    [recurring_status] => 0
+    [bit_status] => 1
+    [apple_status] => 1
+    [cal_status] => 0
+    [googlepay_status] => 1
+    [refund_status] => 0
+    [j5_status] => 0
+    [j4_status] => 0
+    [sdk_status] => 1
+    [manage_recurring] => 0
+    [sdk_credit_card] => 1
+    [sdk_bit] => 1
+    [sdk_apple] => 1
+    [sdk_google] => 1
+)
+ CONTEXT: {"_legacy":true}
+2024-12-13T11:11:32+00:00 NOTICE API Response: Array
+(
+    [status] => 1
+    [message] => success
+    [code] => dcf3773f6d61379b
+    [pagecodes] => Array
+        (
+            [meshulam_regular] => Array
+                (
+                    [live_pagecode] => 81e04dc34850
+                    [test_pagecode] => 694776aec5e2
+                )
+
+            [meshulam_recurring] => Array
+                (
+                    [live_pagecode] => 085a5c336fa7
+                    [test_pagecode] => 7307c1551791
+                )
+
+            [bit_payment] => Array
+                (
+                    [live_pagecode] => e10278843d0e
+                    [test_pagecode] => 2eb3ebca1eda
+                )
+
+            [apple_payment] => Array
+                (
+                    [live_pagecode] => fc0ec4b9957e
+                    [test_pagecode] => e646fdac03a2
+                )
+
+            [cal_payment] => Array
+                (
+                    [live_pagecode] => b8516a3d0e3f
+                    [test_pagecode] => b8516a3d0e3f
+                )
+
+            [googlepay_payment] => Array
+                (
+                    [live_pagecode] => d189717e5d4c
+                    [test_pagecode] => d189717e5d4c
+                )
+
+            [grow_wallet_payment] => Array
+                (
+                    [live_pagecode] => ecf9bc87dde2
+                    [test_pagecode] => d715082edb04
+                )
+
+            [grow_wallet_recurring] => Array
+                (
+                    [live_pagecode] => 1358f9ab9036
+                    [test_pagecode] => 06e7c400e529
+                )
+
+        )
+
+    [regular_status] => 1
+    [recurring_status] => 0
+    [bit_status] => 1
+    [apple_status] => 1
+    [cal_status] => 0
+    [googlepay_status] => 1
+    [refund_status] => 0
+    [j5_status] => 0
+    [j4_status] => 0
+    [sdk_status] => 1
+    [manage_recurring] => 0
+    [sdk_credit_card] => 1
+    [sdk_bit] => 1
+    [sdk_apple] => 1
+    [sdk_google] => 1
+)
+ CONTEXT: {"_legacy":true}
+2024-12-13T15:12:16+00:00 NOTICE API Response: Array
+(
+    [status] => 1
+    [message] => success
+    [code] => dcf3773f6d61379b
+    [pagecodes] => Array
+        (
+            [meshulam_regular] => Array
+                (
+                    [live_pagecode] => 81e04dc34850
+                    [test_pagecode] => 694776aec5e2
+                )
+
+            [meshulam_recurring] => Array
+                (
+                    [live_pagecode] => 085a5c336fa7
+                    [test_pagecode] => 7307c1551791
+                )
+
+            [bit_payment] => Array
+                (
+                    [live_pagecode] => e10278843d0e
+                    [test_pagecode] => 2eb3ebca1eda
+                )
+
+            [apple_payment] => Array
+                (
+                    [live_pagecode] => fc0ec4b9957e
+                    [test_pagecode] => e646fdac03a2
+                )
+
+            [cal_payment] => Array
+                (
+                    [live_pagecode] => b8516a3d0e3f
+                    [test_pagecode] => b8516a3d0e3f
+                )
+
+            [googlepay_payment] => Array
+                (
+                    [live_pagecode] => d189717e5d4c
+                    [test_pagecode] => d189717e5d4c
+                )
+
+            [grow_wallet_payment] => Array
+                (
+                    [live_pagecode] => ecf9bc87dde2
+                    [test_pagecode] => d715082edb04
+                )
+
+            [grow_wallet_recurring] => Array
+                (
+                    [live_pagecode] => 1358f9ab9036
+                    [test_pagecode] => 06e7c400e529
+                )
+
+        )
+
+    [regular_status] => 1
+    [recurring_status] => 0
+    [bit_status] => 1
+    [apple_status] => 1
+    [cal_status] => 0
+    [googlepay_status] => 1
+    [refund_status] => 0
+    [j5_status] => 0
+    [j4_status] => 0
+    [sdk_status] => 1
+    [manage_recurring] => 0
+    [sdk_credit_card] => 1
+    [sdk_bit] => 1
+    [sdk_apple] => 1
+    [sdk_google] => 1
+)
+ CONTEXT: {"_legacy":true}
+2024-12-13T21:52:00+00:00 NOTICE API Response: Array
+(
+    [status] => 1
+    [message] => success
+    [code] => dcf3773f6d61379b
+    [pagecodes] => Array
+        (
+            [meshulam_regular] => Array
+                (
+                    [live_pagecode] => 81e04dc34850
+                    [test_pagecode] => 694776aec5e2
+                )
+
+            [meshulam_recurring] => Array
+                (
+                    [live_pagecode] => 085a5c336fa7
+                    [test_pagecode] => 7307c1551791
+                )
+
+            [bit_payment] => Array
+                (
+                    [live_pagecode] => e10278843d0e
+                    [test_pagecode] => 2eb3ebca1eda
+                )
+
+            [apple_payment] => Array
+                (
+                    [live_pagecode] => fc0ec4b9957e
+                    [test_pagecode] => e646fdac03a2
+                )
+
+            [cal_payment] => Array
+                (
+                    [live_pagecode] => b8516a3d0e3f
+                    [test_pagecode] => b8516a3d0e3f
+                )
+
+            [googlepay_payment] => Array
+                (
+                    [live_pagecode] => d189717e5d4c
+                    [test_pagecode] => d189717e5d4c
+                )
+
+            [grow_wallet_payment] => Array
+                (
+                    [live_pagecode] => ecf9bc87dde2
+                    [test_pagecode] => d715082edb04
+                )
+
+            [grow_wallet_recurring] => Array
+                (
+                    [live_pagecode] => 1358f9ab9036
+                    [test_pagecode] => 06e7c400e529
+                )
+
+        )
+
+    [regular_status] => 1
+    [recurring_status] => 0
+    [bit_status] => 1
+    [apple_status] => 1
+    [cal_status] => 0
+    [googlepay_status] => 1
+    [refund_status] => 0
+    [j5_status] => 0
+    [j4_status] => 0
+    [sdk_status] => 1
+    [manage_recurring] => 0
+    [sdk_credit_card] => 1
+    [sdk_bit] => 1
+    [sdk_apple] => 1
+    [sdk_google] => 1
+)
+ CONTEXT: {"_legacy":true}

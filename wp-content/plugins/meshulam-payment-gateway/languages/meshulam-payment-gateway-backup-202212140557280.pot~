@@ -1,0 +1,666 @@
+# WordPress Blank Pot
+# Copyright (C) 2014 ...
+# This file is distributed under the GNU General Public License v2 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress Blank Pot v1.0.0\n"
+"POT-Creation-Date: 2022-12-09 13:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Your Name <you@example.com>\n"
+"Language-Team: Your Team <translations@example.com>\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:"
+"1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"Language: \n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: inc/wc_meshulam-woocommerce-product.php:64
+msgid " "
+msgstr ""
+
+#: inc/wc_meshulam-recurring-module.php:377
+msgid "#"
+msgstr ""
+
+#: inc/wc_apple_gateway.php:388 inc/wc_cal_gateway.php:383
+#: inc/wc_meshulam_gateway.php:700
+msgid "+ Add More"
+msgstr ""
+
+#: inc/wc_apple_gateway.php:281 inc/wc_cal_gateway.php:271
+#: inc/wc_meshulam_gateway.php:587
+msgid "1"
+msgstr ""
+
+#: inc/wc_apple_gateway.php:290 inc/wc_cal_gateway.php:280
+#: inc/wc_meshulam_gateway.php:596
+msgid "10"
+msgstr ""
+
+#: inc/wc_apple_gateway.php:291 inc/wc_cal_gateway.php:281
+#: inc/wc_meshulam_gateway.php:597
+msgid "11"
+msgstr ""
+
+#: inc/wc_apple_gateway.php:292 inc/wc_cal_gateway.php:282
+#: inc/wc_meshulam_gateway.php:598
+msgid "12"
+msgstr ""
+
+#: inc/wc_apple_gateway.php:282 inc/wc_cal_gateway.php:272
+#: inc/wc_meshulam_gateway.php:588
+msgid "2"
+msgstr ""
+
+#: inc/wc_apple_gateway.php:283 inc/wc_cal_gateway.php:273
+#: inc/wc_meshulam_gateway.php:589
+msgid "3"
+msgstr ""
+
+#: inc/wc_apple_gateway.php:284 inc/wc_cal_gateway.php:274
+#: inc/wc_meshulam_gateway.php:590
+msgid "4"
+msgstr ""
+
+#: inc/wc_apple_gateway.php:285 inc/wc_cal_gateway.php:275
+#: inc/wc_meshulam_gateway.php:591
+msgid "5"
+msgstr ""
+
+#: inc/wc_apple_gateway.php:286 inc/wc_cal_gateway.php:276
+#: inc/wc_meshulam_gateway.php:592
+msgid "6"
+msgstr ""
+
+#: inc/wc_apple_gateway.php:287 inc/wc_cal_gateway.php:277
+#: inc/wc_meshulam_gateway.php:593
+msgid "7"
+msgstr ""
+
+#: inc/wc_apple_gateway.php:288 inc/wc_cal_gateway.php:278
+#: inc/wc_meshulam_gateway.php:594
+msgid "8"
+msgstr ""
+
+#: inc/wc_apple_gateway.php:289 inc/wc_cal_gateway.php:279
+#: inc/wc_meshulam_gateway.php:595
+msgid "9"
+msgstr ""
+
+#: inc/wc_meshulam-recurring-module.php:384
+msgid "Actions"
+msgstr ""
+
+#: inc/wc_apple_gateway.php:460
+msgid "Apple Payment"
+msgstr ""
+
+#: inc/wc_apple_gateway.php:461
+msgid "apple Payment method by Meshulam"
+msgstr ""
+
+#: inc/wc_meshulam-recurring-module.php:168
+#: inc/wc_meshulam-recurring-module.php:180
+msgid "Are you sure?"
+msgstr ""
+
+#: inc/wc_meshulam-recurring-module.php:379
+#: inc/wc_meshulam-recurring-module.php:561
+msgid "Billing Date"
+msgstr ""
+
+#: inc/wc_meshulam-recurring-module.php:279
+msgid "Billing Day"
+msgstr ""
+
+#: inc/wc_bit_gateway.php:306
+msgid "bit Payment"
+msgstr ""
+
+#: inc/wc_bit_gateway.php:307
+msgid "bit Payment method by Meshulam"
+msgstr ""
+
+#: inc/wc_meshulam-woocommerce-product.php:110
+msgid "Buy Now With Installments"
+msgstr ""
+
+#: inc/wc_cal_gateway.php:455
+msgid "CAL Payment"
+msgstr ""
+
+#: inc/wc_cal_gateway.php:456
+msgid "CAL Payment method by Meshulam"
+msgstr ""
+
+#: inc/wc_apple_gateway.php:266 inc/wc_bit_gateway.php:241
+#: inc/wc_cal_gateway.php:256 inc/wc_googlepay_gateway.php:242
+msgid "Choose an \"order status\" for paid orders"
+msgstr ""
+
+#: inc/wc_meshulam-recurring-module.php:553
+msgid "Client Name"
+msgstr ""
+
+#. Author of the plugin
+msgid "code&core"
+msgstr ""
+
+#: inc/wc_meshulam-recurring-module.php:403 inc/wc_meshulam_gateway.php:570
+msgid "Completed"
+msgstr ""
+
+#: inc/wc_apple_gateway.php:321 inc/wc_bit_gateway.php:260
+#: inc/wc_cal_gateway.php:311 inc/wc_googlepay_gateway.php:261
+msgid "Debug log"
+msgstr ""
+
+#: inc/wc_apple_gateway.php:390 inc/wc_cal_gateway.php:385
+#: inc/wc_meshulam_gateway.php:702
+msgid "Delete"
+msgstr ""
+
+#: inc/wc_apple_gateway.php:259 inc/wc_bit_gateway.php:234
+#: inc/wc_cal_gateway.php:249 inc/wc_googlepay_gateway.php:235
+#: inc/wc_meshulam_gateway.php:557
+msgid "Description"
+msgstr ""
+
+#: inc/wc_apple_gateway.php:462 inc/wc_bit_gateway.php:308
+#: inc/wc_cal_gateway.php:457 inc/wc_googlepay_gateway.php:309
+#: inc/wc_meshulam_gateway.php:766
+msgid "Developed by <a href=\"https://codeandcore.co.il/\">Code&Core</a>"
+msgstr ""
+
+#: inc/wc_apple_gateway.php:301 inc/wc_cal_gateway.php:291
+#: inc/wc_meshulam_gateway.php:607
+msgid "Development Mode"
+msgstr ""
+
+#: inc/wc_meshulam-recurring-module.php:267
+msgid "Edit"
+msgstr ""
+
+#: inc/wc_meshulam-recurring-module.php:419
+msgid "Edit Personal Details"
+msgstr ""
+
+#: inc/wc_meshulam-recurring-module.php:278 inc/wc_meshulam_admin.php:51
+msgid "Email"
+msgstr ""
+
+#: inc/wc_apple_gateway.php:243
+msgid "Enable Apple payment Gateway"
+msgstr ""
+
+#: inc/wc_bit_gateway.php:218
+msgid "Enable Bit payment Gateway"
+msgstr ""
+
+#: inc/wc_cal_gateway.php:233
+msgid "Enable CAL payment Gateway"
+msgstr ""
+
+#: inc/wc_googlepay_gateway.php:219
+msgid "Enable Googlepay payment Gateway"
+msgstr ""
+
+#: inc/wc_meshulam_gateway.php:539
+msgid "Enable grow payment gateway"
+msgstr ""
+
+#: inc/wc_apple_gateway.php:323 inc/wc_bit_gateway.php:262
+#: inc/wc_cal_gateway.php:313 inc/wc_googlepay_gateway.php:263
+msgid "Enable logging"
+msgstr ""
+
+#: inc/wc_apple_gateway.php:241 inc/wc_bit_gateway.php:216
+#: inc/wc_cal_gateway.php:231 inc/wc_googlepay_gateway.php:217
+#: inc/wc_meshulam_gateway.php:538
+msgid "Enable/Disable"
+msgstr ""
+
+#: inc/wc_apple_gateway.php:315 inc/wc_bit_gateway.php:254
+#: inc/wc_cal_gateway.php:305 inc/wc_googlepay_gateway.php:255
+#: inc/wc_meshulam_gateway.php:621
+msgid "Enable/Disable J5 Mode"
+msgstr ""
+
+#: inc/wc_apple_gateway.php:309 inc/wc_bit_gateway.php:248
+#: inc/wc_cal_gateway.php:299 inc/wc_googlepay_gateway.php:249
+#: inc/wc_meshulam_gateway.php:615
+msgid "Enable/Disable Refund Payment Mode"
+msgstr ""
+
+#: inc/wc_apple_gateway.php:303 inc/wc_cal_gateway.php:293
+#: inc/wc_meshulam_gateway.php:609
+msgid "Enable/Disable Test Mode"
+msgstr ""
+
+#: inc/wc_meshulam-recurring-module.php:558
+#: inc/wc_meshulam-recurring-module.php:559
+msgid "End Date"
+msgstr ""
+
+#: inc/wc_meshulam-recurring-module.php:326
+msgid "every month"
+msgstr ""
+
+#: inc/wc_meshulam_gateway.php:1442
+msgid "Failed "
+msgstr ""
+
+#: inc/wc_apple_gateway.php:343 inc/wc_bit_gateway.php:287
+#: inc/wc_cal_gateway.php:338 inc/wc_googlepay_gateway.php:288
+#: inc/wc_meshulam_gateway.php:654
+msgid "Failure URL"
+msgstr ""
+
+#: inc/wc_meshulam-recurring-module.php:495
+msgid "Finish"
+msgstr ""
+
+#: inc/wc_meshulam-recurring-module.php:276
+msgid "Full Name"
+msgstr ""
+
+#: inc/wc_googlepay_gateway.php:307
+msgid "Googlepay Payment"
+msgstr ""
+
+#: inc/wc_googlepay_gateway.php:308
+msgid "Googlepay Payment method by Meshulam"
+msgstr ""
+
+#: inc/wc_apple_gateway.php:361 inc/wc_cal_gateway.php:356
+#: inc/wc_meshulam_gateway.php:673
+msgid "Greater then:"
+msgstr ""
+
+#. Name of the plugin
+#: inc/wc_meshulam_admin.php:30 inc/wc_meshulam_gateway.php:764
+msgid "grow payment gateway"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://codeandcore.co.il"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://meshulamplugin.co.il/"
+msgstr ""
+
+#: inc/wc_apple_gateway.php:356 inc/wc_cal_gateway.php:351
+#: inc/wc_meshulam_gateway.php:668
+msgid "If the amount of buy"
+msgstr ""
+
+#: inc/wc_meshulam-woocommerce-product.php:108
+msgid "Installments available with Meshulam Recurring payment Payment"
+msgstr ""
+
+#: inc/wc_apple_gateway.php:453 inc/wc_bit_gateway.php:299
+#: inc/wc_cal_gateway.php:448 inc/wc_googlepay_gateway.php:300
+#: inc/wc_meshulam_gateway.php:989
+msgid "Invalid Phone Number!"
+msgstr ""
+
+#: inc/wc_meshulam_admin.php:219
+msgid "Invoice"
+msgstr ""
+
+#: inc/wc_apple_gateway.php:312 inc/wc_bit_gateway.php:251
+#: inc/wc_cal_gateway.php:302 inc/wc_googlepay_gateway.php:252
+#: inc/wc_meshulam_gateway.php:618
+msgid "J5 Mode"
+msgstr ""
+
+#: inc/wc_meshulam_admin.php:45
+msgid "Licence Key"
+msgstr ""
+
+#: inc/wc_meshulam_admin.php:40
+msgid "Licence key"
+msgstr ""
+
+#: inc/wc_meshulam-woocommerce-product.php:53
+msgid "Make it unlimited Recurring payment"
+msgstr ""
+
+#: inc/wc_apple_gateway.php:363 inc/wc_cal_gateway.php:358
+#: inc/wc_meshulam_gateway.php:675
+msgid "Max payments"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Meshulam Clearing Solutions provides you payment plugin for Woocommerce."
+msgstr ""
+
+#: meshulam-payment-gateway.php:287
+msgid "Meshulam Payment Gateway"
+msgstr ""
+
+#: inc/wc_meshulam-woocommerce-product.php:26
+#: inc/wc_meshulam-woocommerce-product.php:36
+msgid "Meshulam Recurring"
+msgstr ""
+
+#: inc/wc_meshulam-woocommerce-product.php:74
+msgid "Meshulam Recurring payment Period"
+msgstr ""
+
+#: inc/wc_meshulam-recurring-module.php:634
+msgid "Months"
+msgstr ""
+
+#: inc/wc_meshulam-recurring-module.php:338
+#: inc/wc_meshulam-recurring-module.php:400
+msgid "months"
+msgstr ""
+
+#: inc/wc_apple_gateway.php:328 inc/wc_bit_gateway.php:272
+#: inc/wc_cal_gateway.php:323 inc/wc_googlepay_gateway.php:273
+#: inc/wc_meshulam_gateway.php:639
+msgid "More settings "
+msgstr ""
+
+#: inc/wc_meshulam-recurring-module.php:172
+#: inc/wc_meshulam-recurring-module.php:184
+msgid "No"
+msgstr ""
+
+#: inc/wc_apple_gateway.php:277 inc/wc_apple_gateway.php:295
+#: inc/wc_cal_gateway.php:267 inc/wc_cal_gateway.php:285
+#: inc/wc_meshulam_gateway.php:583 inc/wc_meshulam_gateway.php:601
+msgid "Number of max payments"
+msgstr ""
+
+#: inc/wc_meshulam-woocommerce-product.php:75
+msgid "Number of payment"
+msgstr ""
+
+#: inc/wc_meshulam_gateway.php:980 inc/wc_meshulam_gateway.php:983
+msgid "Number of payment is required!"
+msgstr ""
+
+#: inc/wc_meshulam-woocommerce-product.php:76
+msgid "Number should be greater than 2"
+msgstr ""
+
+#: inc/wc_meshulam-recurring-module.php:555
+msgid "Order No"
+msgstr ""
+
+#: inc/wc_meshulam-recurring-module.php:275
+msgid "Order No."
+msgstr ""
+
+#: inc/wc_meshulam-recurring-module.php:552 inc/wc_meshulam_gateway.php:566
+msgid "Order Status"
+msgstr ""
+
+#: inc/wc_apple_gateway.php:264 inc/wc_bit_gateway.php:239
+#: inc/wc_cal_gateway.php:254 inc/wc_googlepay_gateway.php:240
+msgid "Order status"
+msgstr ""
+
+#: inc/wc_meshulam-recurring-module.php:560
+msgid "Order Total"
+msgstr ""
+
+#: inc/wc_meshulam-recurring-module.php:372
+msgid "Past Transactions"
+msgstr ""
+
+#: inc/wc_meshulam_gateway.php:765
+msgid "Pay securely with grow payment gateway"
+msgstr ""
+
+#: inc/wc_cal_gateway.php:317 inc/wc_meshulam_gateway.php:633
+msgid "Payment page"
+msgstr ""
+
+#: inc/wc_meshulam_gateway.php:562
+msgid "Payment settings:"
+msgstr ""
+
+#: inc/wc_cal_gateway.php:319 inc/wc_meshulam_gateway.php:635
+msgid "Payment via popup"
+msgstr ""
+
+#: inc/wc_apple_gateway.php:230 inc/wc_apple_gateway.php:506
+#: inc/wc_cal_gateway.php:220 inc/wc_cal_gateway.php:501
+#: inc/wc_meshulam_gateway.php:513 inc/wc_meshulam_gateway.php:518
+#: inc/wc_meshulam_gateway.php:845 inc/wc_meshulam_gateway.php:869
+msgid "Payments"
+msgstr ""
+
+#: inc/wc_apple_gateway.php:353 inc/wc_cal_gateway.php:348
+#: inc/wc_meshulam_gateway.php:665
+msgid "Payments range"
+msgstr ""
+
+#: inc/wc_meshulam-recurring-module.php:280
+#: inc/wc_meshulam-recurring-module.php:381
+#: inc/wc_meshulam-recurring-module.php:556
+msgid "Period"
+msgstr ""
+
+#: inc/wc_meshulam-recurring-module.php:277
+msgid "Phone No."
+msgstr ""
+
+#: inc/wc_cal_gateway.php:753 inc/wc_meshulam_gateway.php:1489
+msgid "Please do not press back button or refresh"
+msgstr ""
+
+#: inc/wc_meshulam_gateway.php:977
+msgid "Please Select Payment Type"
+msgstr ""
+
+#: inc/wc_bit_gateway.php:266 inc/wc_googlepay_gateway.php:267
+msgid "Popup Show"
+msgstr ""
+
+#: inc/wc_meshulam_gateway.php:569
+msgid "Processing"
+msgstr ""
+
+#: inc/wc_meshulam-recurring-module.php:554
+msgid "Product Name"
+msgstr ""
+
+#: inc/wc_meshulam-recurring-module.php:383
+msgid "Recipet"
+msgstr ""
+
+#: inc/wc_meshulam_gateway.php:512 inc/wc_meshulam_gateway.php:857
+msgid "Recurring payment"
+msgstr ""
+
+#: inc/wc_meshulam-woocommerce-product.php:27
+msgid "Recurring product/service."
+msgstr ""
+
+#: inc/wc_meshulam-recurring-module.php:409
+msgid "REFUND"
+msgstr ""
+
+#: inc/wc_apple_gateway.php:306 inc/wc_bit_gateway.php:245
+#: inc/wc_cal_gateway.php:296 inc/wc_googlepay_gateway.php:246
+#: inc/wc_meshulam_gateway.php:612
+msgid "Refund Payment Mode"
+msgstr ""
+
+#: inc/wc_meshulam_admin.php:56
+msgid "Register Email ID"
+msgstr ""
+
+#: inc/wc_apple_gateway.php:514 inc/wc_cal_gateway.php:509
+#: inc/wc_meshulam_gateway.php:891
+msgid "Regular"
+msgstr ""
+
+#: inc/wc_apple_gateway.php:280 inc/wc_cal_gateway.php:270
+#: inc/wc_meshulam_gateway.php:586
+msgid "Select Number"
+msgstr ""
+
+#: inc/wc_meshulam_gateway.php:573
+msgid "Select order status after payment complete successfully"
+msgstr ""
+
+#: inc/wc_apple_gateway.php:334 inc/wc_bit_gateway.php:278
+#: inc/wc_cal_gateway.php:329 inc/wc_googlepay_gateway.php:279
+#: inc/wc_meshulam_gateway.php:645
+msgid "Show"
+msgstr ""
+
+#: inc/wc_apple_gateway.php:332 inc/wc_bit_gateway.php:276
+#: inc/wc_cal_gateway.php:327 inc/wc_googlepay_gateway.php:277
+#: inc/wc_meshulam_gateway.php:643
+msgid "Show custom Thank you page"
+msgstr ""
+
+#: inc/wc_bit_gateway.php:268 inc/wc_googlepay_gateway.php:269
+msgid "Show Popup on Checkout Page"
+msgstr ""
+
+#: inc/wc_apple_gateway.php:362 inc/wc_cal_gateway.php:357
+#: inc/wc_meshulam_gateway.php:674
+msgid "Smaller then:"
+msgstr ""
+
+#: inc/wc_meshulam-recurring-module.php:557
+msgid "Start Date"
+msgstr ""
+
+#: inc/wc_meshulam-recurring-module.php:282
+#: inc/wc_meshulam-recurring-module.php:382
+#: inc/wc_meshulam-recurring-module.php:562
+msgid "Status"
+msgstr ""
+
+#: inc/wc_meshulam-recurring-module.php:140
+#: inc/wc_meshulam-recurring-module.php:147
+msgid "Subscriptions List"
+msgstr ""
+
+#: inc/wc_meshulam-recurring-module.php:281
+#: inc/wc_meshulam-recurring-module.php:380
+msgid "Sum"
+msgstr ""
+
+#: inc/wc_apple_gateway.php:254 inc/wc_bit_gateway.php:229
+#: inc/wc_cal_gateway.php:244 inc/wc_googlepay_gateway.php:230
+#: inc/wc_meshulam_gateway.php:552
+msgid "Text button"
+msgstr ""
+
+#: inc/wc_apple_gateway.php:338 inc/wc_bit_gateway.php:282
+#: inc/wc_cal_gateway.php:333 inc/wc_googlepay_gateway.php:283
+#: inc/wc_meshulam_gateway.php:649
+msgid "Thank You Page"
+msgstr ""
+
+#: inc/wc_meshulam_gateway.php:559
+msgid "The payment description"
+msgstr ""
+
+#: inc/wc_apple_gateway.php:270 inc/wc_cal_gateway.php:260
+#: inc/wc_meshulam_gateway.php:576
+msgid "The payment type"
+msgstr ""
+
+#: inc/wc_apple_gateway.php:249 inc/wc_bit_gateway.php:224
+#: inc/wc_cal_gateway.php:239 inc/wc_googlepay_gateway.php:225
+msgid "The title which visible during checkout."
+msgstr ""
+
+#: inc/wc_meshulam_gateway.php:547
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: inc/wc_apple_gateway.php:247 inc/wc_bit_gateway.php:222
+#: inc/wc_cal_gateway.php:237 inc/wc_googlepay_gateway.php:223
+#: inc/wc_meshulam_gateway.php:545
+msgid "Title"
+msgstr ""
+
+#: inc/wc_meshulam-recurring-module.php:378
+msgid "Transaction No."
+msgstr ""
+
+#: inc/wc_meshulam-recurring-module.php:283
+#: inc/wc_meshulam-recurring-module.php:367
+msgid "Update Card"
+msgstr ""
+
+#: inc/wc_meshulam-recurring-module.php:263
+msgid "Update Credit Card"
+msgstr ""
+
+#: inc/wc_meshulam-recurring-module.php:563
+msgid "View"
+msgstr ""
+
+#: inc/wc_apple_gateway.php:316 inc/wc_bit_gateway.php:255
+#: inc/wc_cal_gateway.php:306 inc/wc_googlepay_gateway.php:256
+#: inc/wc_meshulam_gateway.php:622
+msgid ""
+"When the option for J5 is running the orders come in under hold status and "
+"only after manual editing and status change to complete will the customer be "
+"charged.\n"
+"\t\t\t\tIf the status is not changed to be completed within 72 hours, the "
+"order status changes to a canceled state because the transaction has expired."
+"\n"
+"\t\t\t\t"
+msgstr ""
+
+#: inc/wc_apple_gateway.php:345 inc/wc_bit_gateway.php:289
+#: inc/wc_cal_gateway.php:340 inc/wc_googlepay_gateway.php:290
+#: inc/wc_meshulam_gateway.php:656
+msgid "Where customers should be redirect after failed pursase"
+msgstr ""
+
+#: inc/wc_apple_gateway.php:340 inc/wc_bit_gateway.php:284
+#: inc/wc_cal_gateway.php:335 inc/wc_googlepay_gateway.php:285
+#: inc/wc_meshulam_gateway.php:651
+msgid "Where customers should be redirect after successful pursase"
+msgstr ""
+
+#: inc/wc_meshulam-recurring-module.php:171
+#: inc/wc_meshulam-recurring-module.php:183
+msgid "Yes"
+msgstr ""
+
+#: inc/wc_meshulam-before-add-to-cart.php:42
+msgid "You cant add subscription product with regular product to cart"
+msgstr ""
+
+#: inc/wc_meshulam_admin.php:200
+msgid "החיבור נכשל נא לפנות לחברת השרתים ולבדוק למה ישנה חסימה"
+msgstr ""
+
+#: inc/wc_bit_gateway.php:225 inc/wc_googlepay_gateway.php:226
+msgid "תשלום באמצעות"
+msgstr ""
+
+#: inc/wc_apple_gateway.php:250
+msgid "תשלום באמצעות apple"
+msgstr ""
+
+#: inc/wc_cal_gateway.php:240
+msgid "תשלום באמצעות CAL"
+msgstr ""

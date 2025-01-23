@@ -1,0 +1,882 @@
+# WordPress Blank Pot
+# Copyright (C) 2014 ...
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress Blank Pot v1.0.0\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
+"POT-Creation-Date: 2024-07-31 19:43+0530\n"
+"PO-Revision-Date: 2024-07-31 19:52+0530\n"
+"Last-Translator: \n"
+"Language-Team: עִבְרִית\n"
+"Language: he_IL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 3.4.4\n"
+"X-Loco-Version: 2.6.1; wp-5.9.4\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: inc/cron_check_paymentinfo.php:95 inc/cron_check_paymentinfo.php:102
+#: inc/cron_check_paymentinfo.php:202 inc/main_cron_check_daily.php:127
+#: inc/main_cron_check_daily.php:133 inc/main_cron_check_daily.php:146
+#: inc/wc_apple_gateway.php:1156 inc/wc_apple_gateway.php:1191
+#: inc/wc_apple_gateway.php:1297 inc/wc_apple_gateway.php:1340
+#: inc/wc_apple_gateway.php:1358 inc/wc_apple_gateway.php:1445
+#: inc/wc_apple_gateway.php:1463 inc/wc_bit_gateway.php:935
+#: inc/wc_bit_gateway.php:970 inc/wc_bit_gateway.php:1076
+#: inc/wc_bit_gateway.php:1119 inc/wc_bit_gateway.php:1137
+#: inc/wc_bit_gateway.php:1226 inc/wc_bit_gateway.php:1244
+#: inc/wc_cal_gateway.php:1134 inc/wc_cal_gateway.php:1169
+#: inc/wc_cal_gateway.php:1275 inc/wc_cal_gateway.php:1317
+#: inc/wc_cal_gateway.php:1335 inc/wc_cal_gateway.php:1424
+#: inc/wc_cal_gateway.php:1442 inc/wc_googlepay_gateway.php:1131
+#: inc/wc_googlepay_gateway.php:1166 inc/wc_googlepay_gateway.php:1272
+#: inc/wc_googlepay_gateway.php:1315 inc/wc_googlepay_gateway.php:1333
+#: inc/wc_googlepay_gateway.php:1422 inc/wc_googlepay_gateway.php:1440
+#: inc/wc_meshulam_gateway.php:1770 inc/wc_meshulam_gateway.php:1885
+#: inc/wc_meshulam_gateway.php:1924 inc/wc_meshulam_gateway.php:1943
+#: inc/wc_meshulam_gateway.php:2028 inc/wc_meshulam_gateway.php:2044
+#: inc/wc_meshulam_grow_wallet.php:1823 inc/wc_meshulam_grow_wallet.php:1942
+#: inc/wc_meshulam_grow_wallet.php:1982 inc/wc_meshulam_grow_wallet.php:2001
+#: inc/wc_meshulam_grow_wallet.php:2086 inc/wc_meshulam_grow_wallet.php:2102
+#, php-format
+msgid "Process created<br/>Process ID: %s"
+msgstr ""
+
+#: inc/cron_check_paymentinfo.php:114 inc/cron_check_paymentinfo.php:213
+#: inc/main_cron_check_daily.php:139 inc/main_cron_check_daily.php:157
+#: inc/wc_apple_gateway.php:344 inc/wc_apple_gateway.php:1203
+#: inc/wc_apple_gateway.php:1583 inc/wc_bit_gateway.php:325
+#: inc/wc_bit_gateway.php:982 inc/wc_bit_gateway.php:1362
+#: inc/wc_cal_gateway.php:337 inc/wc_cal_gateway.php:1181
+#: inc/wc_cal_gateway.php:1560 inc/wc_googlepay_gateway.php:339
+#: inc/wc_googlepay_gateway.php:1178 inc/wc_googlepay_gateway.php:1558
+#: inc/wc_meshulam_gateway.php:479 inc/wc_meshulam_gateway.php:1783
+#: inc/wc_meshulam_gateway.php:2164 inc/wc_meshulam_grow_wallet.php:442
+#: inc/wc_meshulam_grow_wallet.php:1839 inc/wc_meshulam_grow_wallet.php:2223
+#, php-format
+msgid "Payment complete<br/>Asmachta: %s<br/>Transaction ID: %s"
+msgstr ""
+
+#: inc/main_cron_check_daily.php:26
+msgid "Every 6 hours"
+msgstr ""
+
+#: inc/wc_apple_gateway.php:28 inc/wc_meshulam_grow_wallet.php:644
+msgid "Apple"
+msgstr ""
+
+#: inc/wc_apple_gateway.php:29
+msgid "Pay with apple"
+msgstr ""
+
+#: inc/wc_apple_gateway.php:352 inc/wc_apple_gateway.php:369
+#: inc/wc_bit_gateway.php:333 inc/wc_bit_gateway.php:350
+#: inc/wc_cal_gateway.php:345 inc/wc_cal_gateway.php:362
+#: inc/wc_googlepay_gateway.php:347 inc/wc_googlepay_gateway.php:364
+#: inc/wc_meshulam_gateway.php:487 inc/wc_meshulam_gateway.php:504
+#: inc/wc_meshulam_grow_wallet.php:450 inc/wc_meshulam_grow_wallet.php:467
+msgid "Please Try Again, Or contact to grow."
+msgstr ""
+
+#: inc/wc_apple_gateway.php:500 inc/wc_apple_gateway.php:780
+#: inc/wc_cal_gateway.php:486 inc/wc_cal_gateway.php:771
+#: inc/wc_googlepay_gateway.php:493 inc/wc_meshulam_gateway.php:586
+#: inc/wc_meshulam_gateway.php:590 inc/wc_meshulam_gateway.php:923
+#: inc/wc_meshulam_gateway.php:943 inc/wc_meshulam_grow_wallet.php:615
+#: inc/wc_meshulam_grow_wallet.php:619 inc/wc_meshulam_grow_wallet.php:977
+#: inc/wc_meshulam_grow_wallet.php:999
+msgid "Payments"
+msgstr "בחר מספר תשלומים"
+
+#: inc/wc_apple_gateway.php:510 inc/wc_bit_gateway.php:482
+#: inc/wc_cal_gateway.php:496 inc/wc_googlepay_gateway.php:503
+#: inc/wc_meshulam_gateway.php:608 inc/wc_meshulam_grow_wallet.php:657
+msgid "Enable/Disable"
+msgstr "הפעל / השבת"
+
+#: inc/wc_apple_gateway.php:512
+msgid "Enable Apple payment Gateway"
+msgstr ""
+
+#: inc/wc_apple_gateway.php:516 inc/wc_bit_gateway.php:488
+#: inc/wc_cal_gateway.php:502 inc/wc_googlepay_gateway.php:509
+#: inc/wc_meshulam_gateway.php:615 inc/wc_meshulam_grow_wallet.php:664
+msgid "Title"
+msgstr "כותרת *"
+
+#: inc/wc_apple_gateway.php:518 inc/wc_bit_gateway.php:490
+#: inc/wc_cal_gateway.php:504 inc/wc_googlepay_gateway.php:511
+msgid "The title which visible during checkout."
+msgstr "הכותרת שנראית במהלך הקופה."
+
+#: inc/wc_apple_gateway.php:519
+msgid "תשלום באמצעות apple"
+msgstr ""
+
+#: inc/wc_apple_gateway.php:523 inc/wc_bit_gateway.php:495
+#: inc/wc_cal_gateway.php:509 inc/wc_googlepay_gateway.php:516
+#: inc/wc_meshulam_gateway.php:622 inc/wc_meshulam_grow_wallet.php:671
+msgid "Text button"
+msgstr "טקסט כפתור"
+
+#: inc/wc_apple_gateway.php:528 inc/wc_bit_gateway.php:500
+#: inc/wc_cal_gateway.php:514 inc/wc_googlepay_gateway.php:521
+#: inc/wc_meshulam_gateway.php:627 inc/wc_meshulam_grow_wallet.php:676
+msgid "Description"
+msgstr "תיאור"
+
+#: inc/wc_apple_gateway.php:533 inc/wc_bit_gateway.php:505
+#: inc/wc_cal_gateway.php:519 inc/wc_googlepay_gateway.php:526
+msgid "Order status"
+msgstr "מצב הזמנה"
+
+#: inc/wc_apple_gateway.php:535 inc/wc_bit_gateway.php:507
+#: inc/wc_cal_gateway.php:521 inc/wc_googlepay_gateway.php:528
+msgid "Choose an \"order status\" for paid orders"
+msgstr "בחר \"סטטוס הזמנה\" להזמנות בתשלום"
+
+#: inc/wc_apple_gateway.php:539 inc/wc_cal_gateway.php:525
+#: inc/wc_googlepay_gateway.php:532 inc/wc_meshulam_gateway.php:646
+#: inc/wc_meshulam_grow_wallet.php:695
+msgid "The payment type"
+msgstr "סוג התשלום"
+
+#: inc/wc_apple_gateway.php:546 inc/wc_apple_gateway.php:564
+#: inc/wc_cal_gateway.php:532 inc/wc_cal_gateway.php:550
+#: inc/wc_googlepay_gateway.php:539 inc/wc_googlepay_gateway.php:557
+#: inc/wc_meshulam_gateway.php:662 inc/wc_meshulam_gateway.php:680
+#: inc/wc_meshulam_grow_wallet.php:719 inc/wc_meshulam_grow_wallet.php:737
+msgid "Number of max payments"
+msgstr "מספר תשלומים מקסימלי"
+
+#: inc/wc_apple_gateway.php:549 inc/wc_cal_gateway.php:535
+#: inc/wc_googlepay_gateway.php:542 inc/wc_meshulam_gateway.php:665
+#: inc/wc_meshulam_grow_wallet.php:722
+msgid "Select Number"
+msgstr "בחר מספר תשלומים"
+
+#: inc/wc_apple_gateway.php:550 inc/wc_cal_gateway.php:536
+#: inc/wc_googlepay_gateway.php:543 inc/wc_meshulam_gateway.php:666
+#: inc/wc_meshulam_grow_wallet.php:723
+msgid "1"
+msgstr ""
+
+#: inc/wc_apple_gateway.php:551 inc/wc_cal_gateway.php:537
+#: inc/wc_googlepay_gateway.php:544 inc/wc_meshulam_gateway.php:667
+#: inc/wc_meshulam_grow_wallet.php:724
+msgid "2"
+msgstr ""
+
+#: inc/wc_apple_gateway.php:552 inc/wc_cal_gateway.php:538
+#: inc/wc_googlepay_gateway.php:545 inc/wc_meshulam_gateway.php:668
+#: inc/wc_meshulam_grow_wallet.php:725
+msgid "3"
+msgstr ""
+
+#: inc/wc_apple_gateway.php:553 inc/wc_cal_gateway.php:539
+#: inc/wc_googlepay_gateway.php:546 inc/wc_meshulam_gateway.php:669
+#: inc/wc_meshulam_grow_wallet.php:726
+msgid "4"
+msgstr ""
+
+#: inc/wc_apple_gateway.php:554 inc/wc_cal_gateway.php:540
+#: inc/wc_googlepay_gateway.php:547 inc/wc_meshulam_gateway.php:670
+#: inc/wc_meshulam_grow_wallet.php:727
+msgid "5"
+msgstr ""
+
+#: inc/wc_apple_gateway.php:555 inc/wc_cal_gateway.php:541
+#: inc/wc_googlepay_gateway.php:548 inc/wc_meshulam_gateway.php:671
+#: inc/wc_meshulam_grow_wallet.php:728
+msgid "6"
+msgstr ""
+
+#: inc/wc_apple_gateway.php:556 inc/wc_cal_gateway.php:542
+#: inc/wc_googlepay_gateway.php:549 inc/wc_meshulam_gateway.php:672
+#: inc/wc_meshulam_grow_wallet.php:729
+msgid "7"
+msgstr ""
+
+#: inc/wc_apple_gateway.php:557 inc/wc_cal_gateway.php:543
+#: inc/wc_googlepay_gateway.php:550 inc/wc_meshulam_gateway.php:673
+#: inc/wc_meshulam_grow_wallet.php:730
+msgid "8"
+msgstr ""
+
+#: inc/wc_apple_gateway.php:558 inc/wc_cal_gateway.php:544
+#: inc/wc_googlepay_gateway.php:551 inc/wc_meshulam_gateway.php:674
+#: inc/wc_meshulam_grow_wallet.php:731
+msgid "9"
+msgstr ""
+
+#: inc/wc_apple_gateway.php:559 inc/wc_cal_gateway.php:545
+#: inc/wc_googlepay_gateway.php:552 inc/wc_meshulam_gateway.php:675
+#: inc/wc_meshulam_grow_wallet.php:732
+msgid "10"
+msgstr ""
+
+#: inc/wc_apple_gateway.php:560 inc/wc_cal_gateway.php:546
+#: inc/wc_googlepay_gateway.php:553 inc/wc_meshulam_gateway.php:676
+#: inc/wc_meshulam_grow_wallet.php:733
+msgid "11"
+msgstr ""
+
+#: inc/wc_apple_gateway.php:561 inc/wc_cal_gateway.php:547
+#: inc/wc_googlepay_gateway.php:554 inc/wc_meshulam_gateway.php:677
+#: inc/wc_meshulam_grow_wallet.php:734
+msgid "12"
+msgstr ""
+
+#: inc/wc_apple_gateway.php:570 inc/wc_cal_gateway.php:556
+#: inc/wc_meshulam_gateway.php:686 inc/wc_meshulam_grow_wallet.php:743
+msgid "Development Mode"
+msgstr "מצב פיתוח"
+
+#: inc/wc_apple_gateway.php:572 inc/wc_cal_gateway.php:558
+#: inc/wc_meshulam_gateway.php:688 inc/wc_meshulam_grow_wallet.php:745
+msgid "Enable/Disable Test Mode"
+msgstr "הפעל / השבת מצב בדיקה"
+
+#: inc/wc_apple_gateway.php:575 inc/wc_bit_gateway.php:511
+#: inc/wc_cal_gateway.php:561 inc/wc_googlepay_gateway.php:563
+#: inc/wc_meshulam_gateway.php:691 inc/wc_meshulam_grow_wallet.php:748
+msgid "Refund Payment Mode"
+msgstr "הפעל אפשרות זיכוי הזמנה"
+
+#: inc/wc_apple_gateway.php:578 inc/wc_bit_gateway.php:514
+#: inc/wc_cal_gateway.php:564 inc/wc_googlepay_gateway.php:566
+#: inc/wc_meshulam_gateway.php:694 inc/wc_meshulam_grow_wallet.php:751
+msgid "Enable/Disable Refund Payment Mode"
+msgstr "הפעל / השבת מצב החזר כספי"
+
+#: inc/wc_apple_gateway.php:581 inc/wc_bit_gateway.php:517
+#: inc/wc_cal_gateway.php:567 inc/wc_googlepay_gateway.php:569
+#: inc/wc_meshulam_gateway.php:697 inc/wc_meshulam_grow_wallet.php:754
+msgid "J5 Mode"
+msgstr "מצב J5"
+
+#: inc/wc_apple_gateway.php:584 inc/wc_bit_gateway.php:520
+#: inc/wc_cal_gateway.php:570 inc/wc_googlepay_gateway.php:572
+#: inc/wc_meshulam_gateway.php:700 inc/wc_meshulam_grow_wallet.php:757
+msgid "Enable/Disable J5 Mode"
+msgstr "הפעל/השבת את מצב J5"
+
+#: inc/wc_apple_gateway.php:585 inc/wc_bit_gateway.php:521
+#: inc/wc_cal_gateway.php:571 inc/wc_googlepay_gateway.php:573
+#: inc/wc_meshulam_gateway.php:701 inc/wc_meshulam_grow_wallet.php:758
+msgid ""
+"When the option for J5 is running the orders come in under hold status and "
+"only after manual editing and status change to complete will the customer be "
+"charged.\n"
+"\t\t\t\tIf the status is not changed to be completed within 72 hours, the "
+"order status changes to a canceled state because the transaction has "
+"expired.\n"
+"\t\t\t\t"
+msgstr ""
+"כאשר האופציה ל J5 פועלת ההזמנות נכנסות תחת סטטוס מושהה ורק לאחר עריכה ידנית "
+"ושינוי הסטטוס לבטיפול או להושלם יחויב הלקוח. אם לא שונה הסטטוס תוך 72 שעות "
+"סטטוס ההזמנה משתנה למצב בוטל מאחר ופג תוקף העסקה."
+
+#: inc/wc_apple_gateway.php:590 inc/wc_bit_gateway.php:526
+#: inc/wc_cal_gateway.php:576 inc/wc_googlepay_gateway.php:578
+#: inc/wc_meshulam_gateway.php:706 inc/wc_meshulam_grow_wallet.php:763
+msgid "Debug log"
+msgstr "יומן איתור באגים"
+
+#: inc/wc_apple_gateway.php:592 inc/wc_bit_gateway.php:528
+#: inc/wc_cal_gateway.php:578 inc/wc_googlepay_gateway.php:580
+#: inc/wc_meshulam_gateway.php:708 inc/wc_meshulam_grow_wallet.php:765
+msgid "Enable logging"
+msgstr "אפשר רישום"
+
+#: inc/wc_apple_gateway.php:597 inc/wc_bit_gateway.php:538
+#: inc/wc_cal_gateway.php:588 inc/wc_googlepay_gateway.php:590
+#: inc/wc_meshulam_gateway.php:718 inc/wc_meshulam_grow_wallet.php:769
+msgid "More settings "
+msgstr "הגדרות נוספות "
+
+#: inc/wc_apple_gateway.php:601 inc/wc_bit_gateway.php:542
+#: inc/wc_cal_gateway.php:592 inc/wc_googlepay_gateway.php:594
+#: inc/wc_meshulam_gateway.php:722 inc/wc_meshulam_grow_wallet.php:773
+msgid "Show custom Thank you page"
+msgstr "דף תודה"
+
+#: inc/wc_apple_gateway.php:603 inc/wc_bit_gateway.php:544
+#: inc/wc_cal_gateway.php:594 inc/wc_googlepay_gateway.php:596
+#: inc/wc_meshulam_gateway.php:724 inc/wc_meshulam_grow_wallet.php:775
+msgid "Show"
+msgstr "הופעה"
+
+#: inc/wc_apple_gateway.php:607 inc/wc_bit_gateway.php:548
+#: inc/wc_cal_gateway.php:598 inc/wc_googlepay_gateway.php:600
+#: inc/wc_meshulam_gateway.php:728 inc/wc_meshulam_grow_wallet.php:779
+msgid "Thank You Page"
+msgstr "דף תודה"
+
+#: inc/wc_apple_gateway.php:609 inc/wc_bit_gateway.php:550
+#: inc/wc_cal_gateway.php:600 inc/wc_googlepay_gateway.php:602
+#: inc/wc_meshulam_gateway.php:730 inc/wc_meshulam_grow_wallet.php:781
+msgid "Where customers should be redirect after successful pursase"
+msgstr "הפניה לדף בעת שהעיסקה אושרה"
+
+#: inc/wc_apple_gateway.php:612 inc/wc_bit_gateway.php:553
+#: inc/wc_cal_gateway.php:603 inc/wc_googlepay_gateway.php:605
+#: inc/wc_meshulam_gateway.php:733 inc/wc_meshulam_grow_wallet.php:784
+msgid "Failure URL"
+msgstr "לינק לדף עיסקה שנכשלה"
+
+#: inc/wc_apple_gateway.php:614 inc/wc_bit_gateway.php:555
+#: inc/wc_cal_gateway.php:605 inc/wc_googlepay_gateway.php:607
+#: inc/wc_meshulam_gateway.php:735 inc/wc_meshulam_grow_wallet.php:786
+msgid "Where customers should be redirect after failed pursase"
+msgstr "הפניה לדף בעת כישלון בחיוב עיסקה"
+
+#: inc/wc_apple_gateway.php:623 inc/wc_cal_gateway.php:614
+#: inc/wc_googlepay_gateway.php:615 inc/wc_meshulam_gateway.php:743
+#: inc/wc_meshulam_grow_wallet.php:796
+msgid "Payments range"
+msgstr "טווח תשלומים"
+
+#: inc/wc_apple_gateway.php:626 inc/wc_cal_gateway.php:617
+#: inc/wc_googlepay_gateway.php:618 inc/wc_meshulam_gateway.php:746
+#: inc/wc_meshulam_grow_wallet.php:799
+msgid "If the amount of buy"
+msgstr "אם סכום הזמנה"
+
+#: inc/wc_apple_gateway.php:631 inc/wc_cal_gateway.php:622
+#: inc/wc_googlepay_gateway.php:623 inc/wc_meshulam_gateway.php:751
+#: inc/wc_meshulam_grow_wallet.php:804
+msgid "Greater then:"
+msgstr "גדול מ:"
+
+#: inc/wc_apple_gateway.php:632 inc/wc_cal_gateway.php:623
+#: inc/wc_googlepay_gateway.php:624 inc/wc_meshulam_gateway.php:752
+#: inc/wc_meshulam_grow_wallet.php:805
+msgid "Smaller then:"
+msgstr "קטן מ:"
+
+#: inc/wc_apple_gateway.php:633 inc/wc_cal_gateway.php:624
+#: inc/wc_googlepay_gateway.php:625 inc/wc_meshulam_gateway.php:753
+#: inc/wc_meshulam_grow_wallet.php:806
+msgid "Max payments"
+msgstr "מקסימום תשלומים"
+
+#: inc/wc_apple_gateway.php:658 inc/wc_cal_gateway.php:649
+#: inc/wc_googlepay_gateway.php:650 inc/wc_meshulam_gateway.php:777
+#: inc/wc_meshulam_grow_wallet.php:830
+msgid "+ Add More"
+msgstr "הוסף"
+
+#: inc/wc_apple_gateway.php:660 inc/wc_cal_gateway.php:651
+#: inc/wc_googlepay_gateway.php:652 inc/wc_meshulam_gateway.php:778
+#: inc/wc_meshulam_grow_wallet.php:831
+msgid "Delete"
+msgstr "מחק"
+
+#: inc/wc_apple_gateway.php:725 inc/wc_bit_gateway.php:566
+#: inc/wc_cal_gateway.php:716 inc/wc_googlepay_gateway.php:717
+#: inc/wc_meshulam_gateway.php:1073 inc/wc_meshulam_grow_wallet.php:1132
+msgid ""
+"נא להזין מספר סלולרי בלבד עד 10 ספרות ללא רוווחים או סימנים מיוחדים"
+msgstr ""
+
+#: inc/wc_apple_gateway.php:733
+msgid "Apple Payment"
+msgstr ""
+
+#: inc/wc_apple_gateway.php:734
+msgid "apple Payment method by Meshulam"
+msgstr ""
+
+#: inc/wc_apple_gateway.php:735 inc/wc_bit_gateway.php:576
+#: inc/wc_cal_gateway.php:726 inc/wc_googlepay_gateway.php:727
+#: inc/wc_meshulam_gateway.php:845 inc/wc_meshulam_grow_wallet.php:898
+msgid "Developed by <a href=\"https://codeandcore.co.il/\">Code&Core</a>"
+msgstr ""
+
+#: inc/wc_apple_gateway.php:788 inc/wc_cal_gateway.php:779
+#: inc/wc_meshulam_gateway.php:964 inc/wc_meshulam_grow_wallet.php:1022
+msgid "Regular"
+msgstr "רגיל"
+
+#: inc/wc_apple_gateway.php:1123 inc/wc_bit_gateway.php:902
+#: inc/wc_cal_gateway.php:1101 inc/wc_googlepay_gateway.php:1098
+#: inc/wc_meshulam_gateway.php:1637 inc/wc_meshulam_gateway.php:1743
+#: inc/wc_meshulam_grow_wallet.php:1743
+msgid "Failed "
+msgstr "נכשל "
+
+#: inc/wc_apple_gateway.php:1131 inc/wc_bit_gateway.php:910
+#: inc/wc_cal_gateway.php:1109 inc/wc_googlepay_gateway.php:1106
+#: inc/wc_meshulam_gateway.php:1751
+msgid "Connection error."
+msgstr ""
+
+#: inc/wc_apple_gateway.php:1353 inc/wc_apple_gateway.php:1460
+#: inc/wc_bit_gateway.php:1132 inc/wc_bit_gateway.php:1239
+#: inc/wc_cal_gateway.php:1330 inc/wc_cal_gateway.php:1437
+#: inc/wc_googlepay_gateway.php:1328 inc/wc_googlepay_gateway.php:1435
+#: inc/wc_meshulam_gateway.php:1938 inc/wc_meshulam_gateway.php:2041
+#: inc/wc_meshulam_grow_wallet.php:1996 inc/wc_meshulam_grow_wallet.php:2099
+#, fuzzy, php-format
+#| msgid "Meshulam Payment Gateway"
+msgid "Meshulam payment Response: %s"
+msgstr "משולם פתרונות סליקה"
+
+#: inc/wc_bit_gateway.php:23
+msgid "bit"
+msgstr ""
+
+#: inc/wc_bit_gateway.php:24
+msgid "Pay with bit"
+msgstr ""
+
+#: inc/wc_bit_gateway.php:484
+msgid "Enable Bit payment Gateway"
+msgstr ""
+
+#: inc/wc_bit_gateway.php:491 inc/wc_googlepay_gateway.php:512
+msgid "תשלום באמצעות"
+msgstr ""
+
+#: inc/wc_bit_gateway.php:532 inc/wc_googlepay_gateway.php:584
+msgid "Popup Show"
+msgstr "מופע פופ"
+
+#: inc/wc_bit_gateway.php:534 inc/wc_googlepay_gateway.php:586
+msgid "Show Popup on Checkout Page"
+msgstr "הצג חלון קופץ בדף הקופה"
+
+#: inc/wc_bit_gateway.php:574
+msgid "bit Payment"
+msgstr ""
+"תוסף תשלום BIT\n"
+"\n"
+"\n"
+"\n"
+
+#: inc/wc_bit_gateway.php:575
+msgid "bit Payment method by Meshulam"
+msgstr "BIT אמצעי תשלום על ידי משולם"
+
+#: inc/wc_cal_gateway.php:22 inc/wc_meshulam_grow_wallet.php:647
+msgid "CAL"
+msgstr ""
+
+#: inc/wc_cal_gateway.php:23
+msgid "Pay with CAL"
+msgstr ""
+
+#: inc/wc_cal_gateway.php:498
+msgid "Enable CAL payment Gateway"
+msgstr ""
+
+#: inc/wc_cal_gateway.php:505
+msgid "תשלום באמצעות CAL"
+msgstr ""
+
+#: inc/wc_cal_gateway.php:582 inc/wc_meshulam_gateway.php:712
+msgid "Payment page"
+msgstr "דף תשלום"
+
+#: inc/wc_cal_gateway.php:584 inc/wc_meshulam_gateway.php:714
+msgid "Payment via popup"
+msgstr "תשלום באמצעות פופאפ"
+
+#: inc/wc_cal_gateway.php:724
+msgid "CAL Payment"
+msgstr ""
+
+#: inc/wc_cal_gateway.php:725
+msgid "CAL Payment method by Meshulam"
+msgstr ""
+
+#: inc/wc_cal_gateway.php:1051 inc/wc_meshulam_gateway.php:1683
+msgid "Please do not press back button or refresh"
+msgstr "נא לא ללחוץ על כפתור הקודם או לרענן"
+
+#: inc/wc_checkout_validation.php:28
+msgid "Coupons are not allowed when this product is in the cart."
+msgstr "שימוש בקופון לא מאושר בהוראת קבע."
+
+#: inc/wc_checkout_validation.php:58
+msgid "Gift cards cannot be redeemed when this product is in the cart."
+msgstr "גיפט קארד לא מאושר בהוראת קבע."
+
+#: inc/wc_googlepay_gateway.php:23
+msgid "Google Pay"
+msgstr ""
+
+#: inc/wc_googlepay_gateway.php:24
+msgid "Pay with Google Pay"
+msgstr ""
+
+#: inc/wc_googlepay_gateway.php:505
+msgid "Enable Googlepay payment Gateway"
+msgstr ""
+
+#: inc/wc_googlepay_gateway.php:725
+msgid "Googlepay Payment"
+msgstr ""
+
+#: inc/wc_googlepay_gateway.php:726
+msgid "Googlepay Payment method by Meshulam"
+msgstr ""
+
+#: inc/wc_meshulam-before-add-to-cart.php:47
+msgid "You cant add subscription product with regular product to cart"
+msgstr " לא ניתן להוסיף מוצר רגיל עם מוצר בהוראת קבע לעגלה"
+
+#: inc/wc_meshulam-recurring-module.php:143
+#: inc/wc_meshulam-recurring-module.php:151
+msgid "Subscriptions List"
+msgstr "ניהול מנויים"
+
+#: inc/wc_meshulam-recurring-module.php:171
+#: inc/wc_meshulam-recurring-module.php:183
+msgid "Are you sure?"
+msgstr "בטוח?"
+
+#: inc/wc_meshulam-recurring-module.php:174
+#: inc/wc_meshulam-recurring-module.php:186
+msgid "Yes"
+msgstr "כן"
+
+#: inc/wc_meshulam-recurring-module.php:175
+#: inc/wc_meshulam-recurring-module.php:187
+msgid "No"
+msgstr "לא"
+
+#: inc/wc_meshulam-recurring-module.php:266
+msgid "Update Credit Card"
+msgstr "עדכון כרטיס אשראי"
+
+#: inc/wc_meshulam-recurring-module.php:270
+msgid "Edit"
+msgstr "עריכה"
+
+#: inc/wc_meshulam-recurring-module.php:278
+msgid "Order No."
+msgstr "הזמנה מס."
+
+#: inc/wc_meshulam-recurring-module.php:279
+msgid "Full Name"
+msgstr "שם מלא"
+
+#: inc/wc_meshulam-recurring-module.php:280
+msgid "Phone No."
+msgstr "מספר טלפון"
+
+#: inc/wc_meshulam-recurring-module.php:281 inc/wc_meshulam_admin.php:54
+msgid "Email"
+msgstr "שם משתמש"
+
+#: inc/wc_meshulam-recurring-module.php:282
+msgid "Billing Day"
+msgstr "יום חיוב"
+
+#: inc/wc_meshulam-recurring-module.php:283
+#: inc/wc_meshulam-recurring-module.php:384
+#: inc/wc_meshulam-recurring-module.php:560
+msgid "Period"
+msgstr "פרק זמן"
+
+#: inc/wc_meshulam-recurring-module.php:284
+#: inc/wc_meshulam-recurring-module.php:383
+msgid "Sum"
+msgstr "סכום"
+
+#: inc/wc_meshulam-recurring-module.php:285
+#: inc/wc_meshulam-recurring-module.php:385
+#: inc/wc_meshulam-recurring-module.php:566
+msgid "Status"
+msgstr "סטטוס"
+
+#: inc/wc_meshulam-recurring-module.php:286
+#: inc/wc_meshulam-recurring-module.php:370
+msgid "Update Card"
+msgstr "עדכון כרטיס אשראי"
+
+#: inc/wc_meshulam-recurring-module.php:329
+msgid "every month"
+msgstr "לחודש"
+
+#: inc/wc_meshulam-recurring-module.php:341
+#: inc/wc_meshulam-recurring-module.php:403
+msgid "months"
+msgstr "חודשים"
+
+#: inc/wc_meshulam-recurring-module.php:375
+msgid "Past Transactions"
+msgstr "עסקאות קודמות"
+
+#: inc/wc_meshulam-recurring-module.php:380
+msgid "#"
+msgstr ""
+
+#: inc/wc_meshulam-recurring-module.php:381
+msgid "Transaction No."
+msgstr "מס' עסקה"
+
+#: inc/wc_meshulam-recurring-module.php:382
+#: inc/wc_meshulam-recurring-module.php:565
+msgid "Billing Date"
+msgstr "תאריך חיוב"
+
+#: inc/wc_meshulam-recurring-module.php:386
+msgid "Recipet"
+msgstr "קַבָּלָה"
+
+#: inc/wc_meshulam-recurring-module.php:387
+msgid "Actions"
+msgstr "פעולות"
+
+#: inc/wc_meshulam-recurring-module.php:406 inc/wc_meshulam_gateway.php:640
+#: inc/wc_meshulam_grow_wallet.php:689
+msgid "Completed"
+msgstr "הושלם"
+
+#: inc/wc_meshulam-recurring-module.php:412
+msgid "REFUND"
+msgstr "הֶחזֵר"
+
+#: inc/wc_meshulam-recurring-module.php:422
+msgid "Edit Personal Details"
+msgstr "עדכון פרטים"
+
+#: inc/wc_meshulam-recurring-module.php:498
+msgid "Finish"
+msgstr "סיום"
+
+#: inc/wc_meshulam-recurring-module.php:556 inc/wc_meshulam_gateway.php:636
+#: inc/wc_meshulam_grow_wallet.php:685
+msgid "Order Status"
+msgstr "מצב הזמנה"
+
+#: inc/wc_meshulam-recurring-module.php:557
+msgid "Client Name"
+msgstr "שם הלקוח"
+
+#: inc/wc_meshulam-recurring-module.php:558
+msgid "Product Name"
+msgstr "שם מוצר"
+
+#: inc/wc_meshulam-recurring-module.php:559
+msgid "Order No"
+msgstr "הזמנה מס"
+
+#: inc/wc_meshulam-recurring-module.php:561
+msgid "Start Date"
+msgstr "תאריך התחלה"
+
+#: inc/wc_meshulam-recurring-module.php:562
+#: inc/wc_meshulam-recurring-module.php:563
+msgid "End Date"
+msgstr "תאריך סיום"
+
+#: inc/wc_meshulam-recurring-module.php:564
+msgid "Order Total"
+msgstr ""
+
+#: inc/wc_meshulam-recurring-module.php:567
+msgid "View"
+msgstr "מידע נוספות"
+
+#: inc/wc_meshulam-recurring-module.php:638
+msgid "Months"
+msgstr "חודשים"
+
+#: inc/wc_meshulam-woocommerce-product.php:27
+#: inc/wc_meshulam-woocommerce-product.php:38
+msgid "Meshulam Recurring"
+msgstr "הוראות קבע משולם"
+
+#: inc/wc_meshulam-woocommerce-product.php:28
+msgid "Recurring product/service."
+msgstr ""
+
+#: inc/wc_meshulam-woocommerce-product.php:56
+msgid "Make it unlimited Recurring payment"
+msgstr "לחץ ללא הגבלת תקופת זמן"
+
+#: inc/wc_meshulam-woocommerce-product.php:67
+msgid " "
+msgstr ""
+
+#: inc/wc_meshulam-woocommerce-product.php:77
+msgid "Meshulam Recurring payment Period"
+msgstr "בחר תקופת זמן בחודשים:"
+
+#: inc/wc_meshulam-woocommerce-product.php:78
+msgid "Number of payment"
+msgstr "הוראת קבע משולם"
+
+#: inc/wc_meshulam-woocommerce-product.php:79
+msgid "Number should be greater than 2"
+msgstr "המספר צריך להיות גדול מ- 2"
+
+#: inc/wc_meshulam-woocommerce-product.php:112
+msgid "Installments available with Meshulam Recurring payment Payment"
+msgstr "תשלומים זמינים בתשלום חוזר של משולם"
+
+#: inc/wc_meshulam-woocommerce-product.php:115
+msgid "Buy Now With Installments"
+msgstr "קנה עכשיו עם תשלומים"
+
+#: inc/wc_meshulam_admin.php:33 inc/wc_meshulam_gateway.php:30
+#: inc/wc_meshulam_gateway.php:843
+msgid "grow payment gateway"
+msgstr ""
+
+#: inc/wc_meshulam_admin.php:43
+msgid "Licence key"
+msgstr "מפתח רישיון"
+
+#: inc/wc_meshulam_admin.php:48
+msgid "Licence Key"
+msgstr ""
+
+#: inc/wc_meshulam_admin.php:59
+msgid "Register Email ID"
+msgstr "כתובת המייל שאיתה נרשמתם grow"
+
+#: inc/wc_meshulam_admin.php:87
+msgid "Please submit email and access key"
+msgstr ""
+
+#: inc/wc_meshulam_admin.php:217
+msgid "החיבור נכשל נא לפנות לחברת השרתים ולבדוק למה ישנה חסימה"
+msgstr ""
+
+#: inc/wc_meshulam_admin.php:225
+msgid "Settings saved."
+msgstr ""
+
+#: inc/wc_meshulam_admin.php:236
+msgid "Invoice"
+msgstr "חשבונית"
+
+#: inc/wc_meshulam_gateway.php:31 inc/wc_meshulam_gateway.php:844
+#, fuzzy
+#| msgid "Pay securely with meshulam payment gateway"
+msgid "Pay securely with grow payment gateway"
+msgstr "מאובטח באמצעות משולם פתרונות סליקה"
+
+#: inc/wc_meshulam_gateway.php:585 inc/wc_meshulam_gateway.php:935
+#: inc/wc_meshulam_grow_wallet.php:614 inc/wc_meshulam_grow_wallet.php:989
+msgid "Recurring payment"
+msgstr "הוראת קבע"
+
+#: inc/wc_meshulam_gateway.php:609
+msgid "Enable grow payment gateway"
+msgstr ""
+
+#: inc/wc_meshulam_gateway.php:617 inc/wc_meshulam_grow_wallet.php:666
+msgid "This controls the title which the user sees during checkout."
+msgstr "פעולה זו שולטת בתיאור שהמשתמש רואה במהלך הקנייה."
+
+#: inc/wc_meshulam_gateway.php:629 inc/wc_meshulam_grow_wallet.php:678
+msgid "The payment description"
+msgstr "תאור תשלום"
+
+#: inc/wc_meshulam_gateway.php:632 inc/wc_meshulam_grow_wallet.php:681
+msgid "Payment settings:"
+msgstr "הגדרות תשלומים:"
+
+#: inc/wc_meshulam_gateway.php:639 inc/wc_meshulam_grow_wallet.php:688
+msgid "Processing"
+msgstr "מעבד"
+
+#: inc/wc_meshulam_gateway.php:643 inc/wc_meshulam_grow_wallet.php:692
+msgid "Select order status after payment complete successfully"
+msgstr "בחר את מצב ההזמנה לאחר השלמת התשלום בהצלחה"
+
+#: inc/wc_meshulam_gateway.php:654 inc/wc_meshulam_grow_wallet.php:703
+msgid "Disable Coupon"
+msgstr "קופון"
+
+#: inc/wc_meshulam_gateway.php:655 inc/wc_meshulam_grow_wallet.php:704
+msgid "Disable Coupon While Recurring Product"
+msgstr "הפסק פעילות קופונים בהוראות קבע "
+
+#: inc/wc_meshulam_grow_wallet.php:48 inc/wc_meshulam_grow_wallet.php:896
+#, fuzzy
+#| msgid "Pay securely with meshulam payment gateway"
+msgid "grow wallet payment gateway"
+msgstr "מאובטח באמצעות משולם פתרונות סליקה"
+
+#: inc/wc_meshulam_grow_wallet.php:49 inc/wc_meshulam_grow_wallet.php:897
+#, fuzzy
+#| msgid "Pay securely with meshulam payment gateway"
+msgid "Pay securely with grow wallet payment gateway"
+msgstr "מאובטח באמצעות משולם פתרונות סליקה"
+
+#: inc/wc_meshulam_grow_wallet.php:638
+#, fuzzy
+#| msgid "Update Credit Card"
+msgid "Credit Card"
+msgstr "עדכון כרטיס אשראי"
+
+#: inc/wc_meshulam_grow_wallet.php:641
+msgid "Bit"
+msgstr ""
+
+#: inc/wc_meshulam_grow_wallet.php:650
+msgid "Google"
+msgstr ""
+
+#: inc/wc_meshulam_grow_wallet.php:658
+#, fuzzy
+#| msgid "Pay securely with meshulam payment gateway"
+msgid "Enable grow wallet payment gateway"
+msgstr "מאובטח באמצעות משולם פתרונות סליקה"
+
+#: meshulam-payment-gateway.php:318
+msgid ""
+"This plugin requires the plugin - <a href=\"https://wordpress.org/plugins/"
+"woocommerce/\" target=\"_blank\">WooCommerce</a> to be active."
+msgstr ""
+
+#: meshulam-payment-gateway.php:327
+#, php-format
+msgid ""
+"Your server is running PHP %1$s, some features require PHP %2$s at least."
+msgstr ""
+
+#: meshulam-payment-gateway.php:343
+msgid "Meshulam Payment Gateway"
+msgstr "משולם פתרונות סליקה"
+
+#: meshulam-payment-gateway.php:354
+#, fuzzy
+#| msgid "Payment settings:"
+msgid "View Meshulam Payment settings"
+msgstr "הגדרות תשלומים:"
+
+#: meshulam-payment-gateway.php:354
+#, fuzzy
+#| msgid "More settings "
+msgid "Settings"
+msgstr "הגדרות נוספות "
+
+#~ msgid "Invalid Phone Number!"
+#~ msgstr "מספר הטלפון לא תקין"
+
+#~ msgid ""
+#~ "Meshulam Clearing Solutions provides you payment plugin for Woocommerce."
+#~ msgstr "משולם פתרונות סליקה מספקת לך תוסף למסחר באתרי woocommerce"
+
+#~ msgid "Number of payment is required!"
+#~ msgstr "נא לבחור מספר תשלומים!"
+
+#~ msgid "Please Select Payment Type"
+#~ msgstr "נא לבחור סוג תשלום"

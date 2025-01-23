@@ -1,0 +1,94 @@
+.meshulam_modal {
+    display: none;
+}
+
+.meshulam_modal {
+    position: fixed;
+    background-color: rgba(17,30,60,.6);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    overflow: scroll;
+    transition: opacity 250ms ease-in-out;
+}
+.meshulam_modal .modal-close {
+    position: absolute;
+    color: #58666e;
+    font-size: 30px;
+    padding: 9px 12px 11px;
+    right: 8px;
+    top: 8px;
+    line-height: 20px;
+    cursor: pointer;
+    z-index: 10;
+    user-select: none;
+}
+.meshulam_modal .meshulam_modal_container {
+    position: absolute;
+    background: #fff;
+    border-radius: 2px;
+    overflow: hidden;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 90%;
+    max-width: 960px;
+    animation: appear-down 250ms ease-in-out;
+}
+.meshulam_modal .meshulam_modal_container .meshulam_modal_body{
+    padding: 30px;
+}
+.meshulam_modal .meshulam_modal_container .meshulam_modal_body button{
+    cursor: pointer;
+}
+.meshulam_modal .meshulam_modal_container .meshulam_modal_body .btn-opstion{
+    display: none;
+}
+#main_recuring_meshulam_div{position: relative; padding-right: 20px;}
+#main_recuring_meshulam_div .recurring_loader{visibility:hidden;position: absolute; left: 0; right: 0; top: 0; bottom: 0; display: flex; align-items: center; justify-content: center; background: rgba(0,0,0,0.5); z-index: 9;}
+#main_recuring_meshulam_div .recurring_loader img{max-width: 150px;}
+
+
+
+#main_recuring_meshulam_div .edit-field {
+    position: relative;
+    display: flex;
+    align-items: center;
+
+}
+#main_recuring_meshulam_div .edit-field .edit_btn:disabled {
+    border: 1px transparent;   
+    box-shadow: none;
+    color: #555;
+    padding: 0; 
+}
+#main_recuring_meshulam_div .edit-field .edit_btn[type=number]::-webkit-outer-spin-button,
+#main_recuring_meshulam_div .edit-field .edit_btn[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+#main_recuring_meshulam_div .edit-field .edit_btn[type=number] {
+  -moz-appearance: textfield;
+}
+#main_recuring_meshulam_div .edit-field .edit_btn:disabled + button{
+    display: block;
+}
+#main_recuring_meshulam_div .edit-field button.btn-edit{
+    display: none;
+}
+
+
+#main_recuring_meshulam_div .edit-field .edit_btn:disabled ~ .btn-opstion {
+    /* position: absolute;
+    left: 2px; */
+    display: none;
+    /* top: 0; */
+}
+#main_recuring_meshulam_div .edit-field button{
+    width: 30px;
+    height: 23px;
+    padding: 0;
+    cursor: pointer;
+}
