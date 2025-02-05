@@ -272,6 +272,8 @@ function hara_child_change_sort_by_text( $translated_text, $text, $domain ) {
         $translated_text = ' المجموع:  ';
     }elseif ( 'woocommerce' === $domain && 'Subtotal:' === $text ) {
         $translated_text = ' المجموع الفرعي: ';
+    }elseif ( 'hara' === $domain && 'Out of stock' === $text ) {
+        $translated_text = 'غير متوفر حالي  ';
     }
     return $translated_text;
 }
@@ -401,7 +403,7 @@ function replace_optional_text_with_arabic($field, $key, $args, $value) {
 add_filter('woocommerce_checkout_fields', 'custom_override_checkout_fields');
 function custom_override_checkout_fields($fields) {
     if (isset($fields['billing']['billing_phone'])) {
-        $fields['billing']['billing_phone']['label'] = 'فون  ';
+         $fields['billing']['billing_phone']['label'] = ' رقم الهاتف  ';
     }
     if (isset($fields['billing']['billing_email'])) {
         $fields['billing']['billing_email']['label'] = ' عنوان البريد الإلكتروني  ';
@@ -441,7 +443,7 @@ function change_cod_description($description, $gateway_id) {
 }
 add_filter('woocommerce_order_button_text', 'change_place_order_button_text');
 function change_place_order_button_text($button_text) {
-    return 'وضع الطلب  ';
+     return 'اشتري الان  ';
 }
 
 // add_filter('woocommerce_get_privacy_policy_text', 'custom_wc_privacy_policy_text_with_link', 10, 2);
